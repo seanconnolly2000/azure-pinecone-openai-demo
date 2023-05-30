@@ -17,7 +17,7 @@ Note: You do not need the cognitive search, however, since all else remains the 
 Besides your standard Azure Credentials required during setup (again, see Azure Search OpenAI Demo for instructions), you'll need the following environment variables:
 
 /app/backend/app.py
-# Pinecone api key, environment, index and encoding model
+Pinecone api key, environment, index and encoding model
 PINECONE_API_KEY =  os.environ.get('PINECONE_API_KEY') or 'PINECONE_API_KEY'
 PINECONE_ENV = os.environ.get('PINECONE_ENV') or 'PINECONE_ENV'
 PINECONE_INDEX_NAME = os.environ.get('PINECONE_INDEX_NAME') or 'gptkbindex'
